@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lancefennell"
+version = "0.1.0"
+description = "Personal website of Lance Fennell recreated as a static site."
+authors = ["Felix Fennell <felnne@bas.ac.uk>", "Lance Fennell <lancefennell@fastmail.fm>"]
+readme = "README.md"
+licence="MIT"
+packages = [{include = "lancefennell", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
