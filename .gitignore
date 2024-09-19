@@ -2,3 +2,6 @@
 .idea/
 .python-version
 __pycache__
+
+img/
+asset_urls.txt
