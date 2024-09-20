@@ -12,6 +12,10 @@ def create_app():
     app = Flask(__name__)
     app.config['SITE_TITLE'] = 'Lance Fennell'
 
+    @app.route('/favicon.ico')
+    def favicon():
+        return redirect(url_for('static', filename='favicon.ico'))
+
     @app.route('/')
     def index():
         return redirect(url_for('items', category='studio'))
