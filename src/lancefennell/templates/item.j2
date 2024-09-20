@@ -9,4 +9,8 @@
         <img src="{{ item.detail_img_href }}" alt="{{ item.title }}" />
     </figure>
 </article>
+<div class="flex justify-center mt-24">
+    {% if previous %}<a class="w-full" href="{{ url_for('detail', slug=previous.slug) }}">&lt; {{ previous.title }}</a>{% endif %}
+    {% if next %}<a class="w-full text-right" href="{{ url_for('detail', slug=next.slug) }}">{{ next.title }} &gt;</a>{% endif %}
+</div>
 {% endblock %}
