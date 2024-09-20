@@ -27,3 +27,8 @@ Personal website of Lance Fennell recreated as a static site.
 - expose bucket as `assets.lancefennell.co.uk` (e.g. `foo.png` as `https://assets.lancefennell.co.uk/img/foo.png`)
 - run: `poetry run python scripts/update_href.py`
 - add `data =` to `src/lancefennell/data.py` to name list
+
+## Developing
+
+- `poetry run flask run --app lancefennell.app:create_app --port 9000 --debug`
+- `poetry run tailwindcss -i src/lancefennell/styles/main.css -o src/lancefennell/static/css/main.css --minify --watch`

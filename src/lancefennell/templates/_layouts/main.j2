@@ -4,22 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
         <title>{% block title %}{{ config.SITE_TITLE }}{% endblock %}</title>
     </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="{{ url_for('items', category='studio') }}">Studio</a></li>
-                    <li><a href="{{ url_for('items', category='paintings') }}">Paintings</a></li>
+    <body class="bg-[#f1f1ef]">
+        <header class="container mt-10 mb-12 mx-auto flex justify-between items-center">
+            <nav class="flex-1">
+                <ul class="flex space-x-4">
+                    <li><a class="hover:underline" href="{{ url_for('items', category='studio') }}">Studio</a></li>
+                    <li><a class="hover:underline" href="{{ url_for('items', category='paintings') }}">Paintings</a></li>
                 </ul>
             </nav>
-            <div>Lance Fennell</div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 text-2xl">Lance Fennell</div>
         </header>
-        <main>
+        <main class="container mx-auto p-4">
             {% block content %}{% endblock %}
         </main>
-        <footer>
-        </footer>
+        <footer class="bg-black mt-64 h-64"></footer>
     </body>
 </html>
