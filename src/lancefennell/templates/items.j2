@@ -1,10 +1,14 @@
-<main>
+{% extends "_layouts/main.j2" %}
+
+{% block title %}{{ category | title }} - {{ config.SITE_TITLE }}{% endblock %}
+
+{% block content %}
     {% for item in items %}
         <figure>
-            <img src="{{ item.index_img_href }}" />
+            <img src="{{ item.index_img_href }}" alt="{{ item.title }}" />
             <figcaption>
                 <a href="{{ url_for('detail', slug=item.slug) }}">{{ item.title }}</a>
             </figcaption>
         </figure>
     {% endfor %}
-</main>
+{% endblock %}

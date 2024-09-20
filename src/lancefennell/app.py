@@ -5,11 +5,12 @@ from lancefennell.data import data
 
 def category_items(category: str):
     items = [item for item in data if item['category'] == category]
-    return render_template("items.j2", items=items)
+    return render_template("items.j2", items=items, category=category)
 
 
 def create_app():
     app = Flask(__name__)
+    app.config['SITE_TITLE'] = 'Lance Fennell'
 
     @app.route('/')
     def index():
