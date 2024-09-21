@@ -47,4 +47,12 @@ def create_app():
         previous_item, current_item, next_item = _get_surrounding_items(slug)
         return render_template("item.j2", item=current_item, previous=previous_item, next=next_item)
 
+    @app.route('/remembrance/')
+    def remembrance():
+        return render_template("remembrance.j2")
+
+    @app.route('/visual-tribute/')
+    def visual_tribute():
+        return render_template("tribute.j2")
+
     return app

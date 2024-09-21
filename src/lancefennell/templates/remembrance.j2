@@ -1,0 +1,38 @@
+{% extends "_layouts/main.j2" %}
+
+{% block title %}Remembrance - {{ config.SITE_TITLE }}{% endblock %}
+
+{% block content %}
+<article class="mt-12 text-center space-y-24">
+    <section class="space-y-4">
+        <h1 class="text-3xl">Funeral Transcript</h1>
+        <p>Text read as part of the funeral service, including readings, tributes and eulogy.</p>
+        <div><a href="https://assets.lancefennell.co.uk/doc/Lance-Fennell-Funeral-Service-Transcript.pdf" class="underline">Download Transcript [PDF]</a></div>
+    </section>
+    <section class="space-y-4">
+        <h1 class="text-3xl">Visual Tribute</h1>
+        <div><a href="{{ url_for('visual_tribute') }}" class="underline">View Photos</a></div>
+    </section>
+    <section class="space-y-12">
+        <h1 class="text-3xl">Music Selections</h1>
+        <section>
+            <h2 class="text-xl">Entrance</h2>
+            <div class="flex justify-center items-center mt-4">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mrU3ExldNMM?si=N3xl1j2D28P8YnM4" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-xl">Reflection</h2>
+            <div class="flex justify-center items-center mt-4">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PXyY1Aryv6E?si=BwTJFXrXQYRL0M2u" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-xl">Exit</h2>
+            <div class="flex justify-center items-center mt-4">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s0ZU8yxfoYE?si=utNMhTLBJ0XRUkS6" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
+</article>
+{% endblock %}

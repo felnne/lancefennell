@@ -12,6 +12,7 @@ Personal website of Lance Fennell recreated as a static site.
   - funeral
 - save URLs from visual tribute to `exports/tribute.txt`
 - run: `poetry run python scripts/make_data.py`
+- download funeral transcript doc
 
 ## Download assets
 
@@ -26,6 +27,7 @@ Personal website of Lance Fennell recreated as a static site.
 - upload contents of `assets/img` to a `img/` prefix (e.g. `foo.png` as `img/foo.png`)
 - expose bucket as `assets.lancefennell.co.uk` (e.g. `foo.png` as `https://assets.lancefennell.co.uk/img/foo.png`)
 - run: `poetry run python scripts/update_href.py`
+- upload funeral transcript doc under a `doc/` prefix
 
 ## Developing
 
