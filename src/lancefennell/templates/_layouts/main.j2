@@ -8,24 +8,29 @@
         <title>{% block title %}{{ config.SITE_TITLE }}{% endblock %}</title>
     </head>
     <body class="bg-[#f1f1ef]">
-        <header class="container mt-10 mb-12 mx-auto flex justify-between items-center">
-            <nav class="flex-1">
-                <ul class="flex space-x-4">
-                    <li><a class="hover:underline" href="{{ url_for('items', category='studio') }}">Studio</a></li>
-                    <li><a class="hover:underline" href="{{ url_for('items', category='paintings') }}">Paintings</a></li>
-                    <li><a class="hover:underline" href="{{ url_for('remembrance') }}">Remembrance</a></li>
-                </ul>
-            </nav>
-            <div class="absolute left-1/2 transform -translate-x-1/2 text-2xl">Lance Fennell</div>
-            <div>
+        <header class="lg:hidden container mt-6 mb-12 mx-auto">
+            <div class="text-2xl text-center">{{ config.SITE_TITLE }}</div>
+            <nav class="flex justify-center items-center space-x-2">
+                {% include('_includes/nav.j2') %}
                 <a href="https://www.instagram.com/lancekfennell/" target="_blank" rel="noopener">
-                    <svg class="w-12" viewBox="0 0 64 64" width="110" height="110"><path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"></path></svg>
+                    {% include('_includes/instagram.j2') %}}
+                </a>
+            </nav>
+        </header>
+        <header class="hidden lg:flex container mt-12 mb-24 mx-auto items-center">
+            <nav class="w-1/3">{% include('_includes/nav.j2') %}</nav>
+            <div class="w-1/3 text-2xl text-center">{{ config.SITE_TITLE }}</div>
+            <div class="w-1/3 flex justify-end">
+                <a href="https://www.instagram.com/lancekfennell/" target="_blank" rel="noopener">
+                    {% include('_includes/instagram.j2') %}}
                 </a>
             </div>
         </header>
-        <main class="container mx-auto p-4">
+
+        <main class="container lg:mx-auto">
             {% block content %}{% endblock %}
         </main>
-        <footer class="bg-black mt-64 h-64"></footer>
+
+        <footer class="bg-black mt-32 py-16 lg:mt-64 lg:py-32 text-center text-gray-300">In loving memory of Lance Fennell, 1963 - 2023.</footer>
     </body>
 </html>
