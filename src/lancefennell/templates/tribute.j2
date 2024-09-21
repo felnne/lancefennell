@@ -2,6 +2,12 @@
 
 {% block title %}Visual Tribute - {{ config.SITE_TITLE }}{% endblock %}
 
+{% block head_meta %}
+    <meta property="og:title" content="Tribute" />
+    <meta property="og:image" content="{{ config.SITE_IMG_URL }}" />
+    <meta property="og:image:type" content="{{ config.SITE_IMG_MEDIA_TYPE }}" />
+{% endblock %}
+
 {% block content %}
 <article class="mt-12 space-y-4">
     <h1 class="text-center text-3xl mb-6 lg:mb-12">Visual Tribute</h1>

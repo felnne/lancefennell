@@ -2,6 +2,12 @@
 
 {% block title %}{{ category | title }} - {{ config.SITE_TITLE }}{% endblock %}
 
+{% block head_meta %}
+    <meta property="og:title" content="{{ category | title }}" />
+    <meta property="og:image" content="{{ config.SITE_IMG_URL }}" />
+    <meta property="og:image:type" content="{{ config.SITE_IMG_MEDIA_TYPE }}" />
+{% endblock %}
+
 {% block content %}
     <div class="grid gap-y-12 lg:grid-cols-4 lg:gap-y-32 lg:gap-x-12">
         {% for item in items %}
