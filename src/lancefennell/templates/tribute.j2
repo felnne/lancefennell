@@ -1,0 +1,47 @@
+{% extends "_layouts/main.j2" %}
+
+{% block title %}Visual Tribute - {{ config.SITE_TITLE }}{% endblock %}
+
+{% block content %}
+<article class="mt-12 space-y-4">
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[0].detail_img_href }}" alt="{{ items[0].title }}" width="365">
+        <img src="{{ items[1].detail_img_href }}" alt="{{ items[1].title }}" width="214">
+        <img src="{{ items[2].detail_img_href }}" alt="{{ items[2].title }}" width="213">
+        <img src="{{ items[3].detail_img_href }}" alt="{{ items[3].title }}" width="467">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[4].detail_img_href }}" alt="{{ items[4].title }}" width="239">
+        <img src="{{ items[5].detail_img_href }}" alt="{{ items[5].title }}" width="477">
+        <img src="{{ items[6].detail_img_href }}" alt="{{ items[6].title }}" width="554">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[7].detail_img_href }}" alt="{{ items[7].title }}" width="526">
+        <img src="{{ items[8].detail_img_href }}" alt="{{ items[8].title }}" width="273">
+        <img src="{{ items[9].detail_img_href }}" alt="{{ items[9].title }}" width="471">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[10].detail_img_href }}" alt="{{ items[10].title }}" width="405">
+        <img src="{{ items[11].detail_img_href }}" alt="{{ items[11].title }}" width="219">
+        <img src="{{ items[12].detail_img_href }}" alt="{{ items[12].title }}" width="404">
+        <img src="{{ items[13].detail_img_href }}" alt="{{ items[13].title }}" width="224">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[14].detail_img_href }}" alt="{{ items[14].title }}" width="179">
+        <img src="{{ items[15].detail_img_href }}" alt="{{ items[15].title }}" width="350">
+        <img src="{{ items[16].detail_img_href }}" alt="{{ items[16].title }}" width="362">
+        <img src="{{ items[17].detail_img_href }}" alt="{{ items[17].title }}" width="360">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[18].detail_img_href }}" alt="{{ items[18].title }}" width="493">
+        <img src="{{ items[19].detail_img_href }}" alt="{{ items[19].title }}" width="500">
+        <img src="{{ items[20].detail_img_href }}" alt="{{ items[20].title }}" width="278">
+    </div>
+    <div class="flex justify-center space-x-4">
+        <img src="{{ items[21].detail_img_href }}" alt="{{ items[21].title }}" width="361">
+        <img src="{{ items[22].detail_img_href }}" alt="{{ items[22].title }}" width="176">
+        <img src="{{ items[23].detail_img_href }}" alt="{{ items[23].title }}" width="361">
+        <img src="{{ items[24].detail_img_href }}" alt="{{ items[24].title }}" width="350">
+    </div>
+</article>
+{% endblock %}
