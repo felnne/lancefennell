@@ -13,10 +13,11 @@ Personal website of Lance Fennell recreated as a static site.
 - save URLs from visual tribute to `exports/tribute.txt`
 - run: `poetry run python scripts/make_data.py`
 - download funeral transcript doc
+- save `/sitemap.xml` to `exports/sitemap.xml`
 
 ## Download assets
 
-- run: `poetry run python scripts/make_wget.py`
+- run: `poetry run python scripts/list_wget.py`
 - run `wget -i asset_urls.txt -P ./assets/img`
 - delete any `.1` files
 - rename any files with `?format=` suffixes
@@ -32,9 +33,14 @@ Personal website of Lance Fennell recreated as a static site.
 ## Developing
 
 - run: `poetry run flask run --app lancefennell.app:create_app --port 9000 --debug`
-- run: `poetry run tailwindcss -i src/lancefennell/styles/main.css -o src/lancefennell/static/css/main.css --minify --watch`
+- run: `poetry run tailwindcss -i src/lancefennell/resources/styles/main.css -o src/lancefennell/static/css/main.css --minify --watch`
 
 ## Build site
 
-- run: `poetry run python scripts/freeze_site.py`
+- run: `poetry run python scripts/make_site.py`
 - test site: `poetry run python -m http.server 9000 --directory build`
+
+## Make redirects
+
+- run: `poetry run python scripts/list_redirects.py`
+- update `src/lancefennell/resources/cloudflare/_redirects` as needed

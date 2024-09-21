@@ -34,6 +34,10 @@ def create_app():
     def favicon():
         return redirect(url_for('static', filename='favicon.ico'))
 
+    @app.route('/404.html')
+    def not_found():
+        return render_template("404.j2")
+
     @app.route('/')
     def index():
         return redirect(url_for('items', category='studio'))
