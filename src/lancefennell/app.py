@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from flask import Flask, redirect, url_for, render_template
 
 from lancefennell.data import data
@@ -26,6 +28,7 @@ def _category_items(category: str):
 def create_app():
     app = Flask(__name__)
     app.config['SITE_TITLE'] = 'Lance Fennell'
+    app.config['FREEZER_DESTINATION'] = Path.cwd() / 'build'
 
     @app.route('/favicon.ico')
     def favicon():
@@ -35,12 +38,12 @@ def create_app():
     def index():
         return redirect(url_for('items', category='studio'))
 
-    @app.route('/<category>')
+    @app.route('/<category>/')
     def items(category: str) -> str:
         return _category_items(category=category)
 
-    @app.route('/items/<slug>')
-    def detail(slug: str) -> str:
+    @app.route('/items/<slug>/')
+    def detail(slug: str):
         previous_item, current_item, next_item = _get_surrounding_items(slug)
         return render_template("item.j2", item=current_item, previous=previous_item, next=next_item)
 
