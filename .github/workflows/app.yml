@@ -37,7 +37,7 @@ jobs:
       - name: Install project dependencies
         run: poetry install
       - name: Build site
-        run: poetry run python scripts/freeze_site.py
+        run: poetry run python scripts/make_site.py
       - name: Upload build artefacts
         uses: actions/upload-artifact@v4.4.0
         with:

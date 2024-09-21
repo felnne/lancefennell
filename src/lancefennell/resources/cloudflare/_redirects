@@ -1,0 +1,2 @@
+/blog /paintings
+/blog/* /paintings/:splat
