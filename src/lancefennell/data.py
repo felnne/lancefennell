@@ -610,630 +610,630 @@ data = [
   },
   {
     "category": "paintings",
-    "slug": "/blog/kebab-and-nails",
+    "slug": "kebab-and-nails",
     "title": "Kebab and Nails",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/233+Kebab+and+Nails+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/233+Kebab+and+Nails+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/eastern-road-study",
+    "slug": "eastern-road-study",
     "title": "Eastern Road study",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/476+eastern+road+study+II+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/476+eastern+road+study+II+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/the-swan-winslow",
+    "slug": "the-swan-winslow",
     "title": "The Swan, Winslow",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/118+The+Swan%2C+Winslow+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/118+The+Swan%2C+Winslow+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/chair-by-a-window-westbury",
+    "slug": "chair-by-a-window-westbury",
     "title": "Chair by a window, Westbury",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/774+Chair+by+a+Window+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/774+Chair+by+a+Window+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/best-original-kebabs",
+    "slug": "best-original-kebabs",
     "title": "Best Original Kebabs",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/721+Best+Original+Kebabs+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/721+Best+Original+Kebabs+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/houses-at-oxley-park",
+    "slug": "houses-at-oxley-park",
     "title": "Houses at Oxley Park",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/645+Houses+at+Oxley+Park+%282016%29+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/645+Houses+at+Oxley+Park+%282016%29+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/studio-window-westbury",
+    "slug": "studio-window-westbury",
     "title": "Studio Window, Westbury",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/766+Studio+Window+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/766+Studio+Window+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/two-swans-going-home",
+    "slug": "two-swans-going-home",
     "title": "Two swans (going home)",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/189+two+swans+%28going+home%29+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/189+two+swans+%28going+home%29+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/snow-near-gt-horwood",
+    "slug": "snow-near-gt-horwood",
     "title": "Snow near Gt Horwood",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/473+snow+near+great+horwood+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/473+snow+near+great+horwood+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/st-marys-whaddon",
+    "slug": "st-marys-whaddon",
     "title": "St Mary's Whaddon",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1504+St+Mary%27s+Whaddon+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1504+St+Mary%27s+Whaddon+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/headlights-near-padbury",
+    "slug": "headlights-near-padbury",
     "title": "Headlights near Padbury",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/017+Headlights+near+Padbury+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/017+Headlights+near+Padbury+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/oxley-park-roundabout",
+    "slug": "oxley-park-roundabout",
     "title": "Oxley Park Roundabout",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/755+Oxley+Park+Roundabout+500.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/755+Oxley+Park+Roundabout+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/workshop-flowers-i",
+    "slug": "workshop-flowers-i",
     "title": "Workshop flowers I",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/541+Workshop+flowers+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/541+Workshop+flowers+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/from-ivinghoe-beacon",
+    "slug": "from-ivinghoe-beacon",
     "title": "From Ivinghoe Beacon",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/192+From+Ivinghoe+beacon+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/192+From+Ivinghoe+beacon+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/rose",
+    "slug": "rose",
     "title": "Rose",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/156+rose+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/156+rose+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/self-portrait",
+    "slug": "self-portrait",
     "title": "Self Portrait",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/236+Self+Portrait+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/236+Self+Portrait+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/workshop-flowers-ii",
+    "slug": "workshop-flowers-ii",
     "title": "Workshop flowers II",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1520+Workshop+flowers+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1520+Workshop+flowers+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/underpass",
+    "slug": "underpass",
     "title": "Underpass",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/644+underpass+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/644+underpass+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/carpet-gardens-eastbourne",
+    "slug": "carpet-gardens-eastbourne",
     "title": "Carpet Gardens, Eastbourne",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/750+Carpet+Gardens%2C+Eastbourne+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/750+Carpet+Gardens%2C+Eastbourne+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/0i82198fpgdr3175jzjabqvrcpcl86",
+    "slug": "0i82198fpgdr3175jzjabqvrcpcl86",
     "title": "Shenley Wood Ponds",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/926+Shenley+Wood+ponds+500px+-+Copy.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/926+Shenley+Wood+ponds+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/grafton-street-aqueduct",
+    "slug": "grafton-street-aqueduct",
     "title": "Grafton Street Aqueduct",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/190+Grafton+Street+Aqueduct+with+Grey+background+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/190+Grafton+Street+Aqueduct+with+Grey+background+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/taking-a-call",
+    "slug": "taking-a-call",
     "title": "Taking a call",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/186+Taking+a+call+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/186+Taking+a+call+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/owl-service",
+    "slug": "owl-service",
     "title": "Owl Service",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2023+1431+Owl+Service+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2023+1431+Owl+Service+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/car-park",
+    "slug": "car-park",
     "title": "Car park",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/720+Car+Park+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/720+Car+Park+on+black+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/holiday",
+    "slug": "holiday",
     "title": "Holiday",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/756+Holiday+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/756+Holiday+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/overtaking",
+    "slug": "overtaking",
     "title": "Overtaking",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/044+Overtaking+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/044+Overtaking+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/shenley-oak-with-stars",
+    "slug": "shenley-oak-with-stars",
     "title": "Shenley Oak with Stars",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Oak+with+Stars+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Oak+with+Stars+400px+Square.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/st-marys-bletchley",
+    "slug": "st-marys-bletchley",
     "title": "St Mary's, Bletchley",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1347+St.+Mary%E2%80%99s%2C+Bletchley+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1347+St.+Mary%E2%80%99s%2C+Bletchley+400px+px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/moonrise-a421-near-nash",
+    "slug": "moonrise-a421-near-nash",
     "title": "Moonrise, A421 near Nash",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/194+Moonrise%2C+A421+near+Nash+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/194+Moonrise%2C+A421+near+Nash+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/its-never-over",
+    "slug": "its-never-over",
     "title": "The Carousel",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/932+Merry-Go-Round+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/932+Merry-Go-Round+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/sunset-and-snow-gawcott",
+    "slug": "sunset-and-snow-gawcott",
     "title": "Sunset and snow, Gawcott",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/155+sunset+and+snow+gawcott+grey+background+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/155+sunset+and+snow+gawcott+grey+background+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/michael-road-gasworks",
+    "slug": "michael-road-gasworks",
     "title": "Michael Road Gasworks",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/537+gasworks+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/537+gasworks+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/a41-aston-clinton",
+    "slug": "a41-aston-clinton",
     "title": "A41 Aston Clinton",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/131+A41+Aston+Clinton+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/131+A41+Aston+Clinton+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/westbury-farm",
+    "slug": "westbury-farm",
     "title": "Westbury Farm",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/709+Westbury+Farm+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/709+Westbury+Farm+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/eastern-road-at-night",
+    "slug": "eastern-road-at-night",
     "title": "Eastern Road at night",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/529+Eastern+Road+at+night+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/529+Eastern+Road+at+night+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/eastern-road-junction-ii",
+    "slug": "eastern-road-junction-ii",
     "title": "Eastern Road Junction II",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/531+Eastern+Road+junction+500px+on+white.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/531+Eastern+Road+junction+500px+on+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bloomsbury-bags-1",
+    "slug": "bloomsbury-bags-1",
     "title": "Bloomsbury Bags",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1255+Bloomsbury+Bags+400px+new.png",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1255+Bloomsbury+Bags+400px+sq+new.png"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bridge-bright-star",
+    "slug": "bridge-bright-star",
     "title": "Bridge (Bright star)",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Bridge+%28bright+star%29+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Bridge+%28bright+star%29+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/st-marys-bletchley",
+    "slug": "st-marys-bletchley",
     "title": "St Mary's, Bletchley",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1326+St+Marys+Bletchley+Acrylic+400px.png",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1326+St+Marys+Bletchley+Acrylic+400px+Sq.png"
   },
   {
     "category": "paintings",
-    "slug": "/blog/taking-matt-to-football",
+    "slug": "taking-matt-to-football",
     "title": "Taking Matt to football",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/647+Taking+Matt+to+football+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/647+Taking+Matt+to+football+500px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bus-stop-shenley-wood",
+    "slug": "bus-stop-shenley-wood",
     "title": "Bus stop, Shenley Wood",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1320+Bus+stop%2C+Shenley+Wood+400px.png",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1320+Bus+stop%2C+Shenley+Wood+400px+sq.png"
   },
   {
     "category": "paintings",
-    "slug": "/blog/smokers",
+    "slug": "smokers",
     "title": "Smokers",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/539+Smokers+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/539+Smokers+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/petrol-station",
+    "slug": "petrol-station",
     "title": "Petrol Station",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/005+Petrol+Station+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/005+Petrol+Station+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/portrait-of-aw",
+    "slug": "portrait-of-aw",
     "title": "Portrait of AW",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Portrait+of+AW+500+px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Portrait+of+AW+400+px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/60k6zppjbouf2tnmug44r04erknzmz",
+    "slug": "60k6zppjbouf2tnmug44r04erknzmz",
     "title": "Best Original Kebab",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/530+kebab+van+500px+on+white.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/530+kebab+van+500px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bus-stop-study",
+    "slug": "bus-stop-study",
     "title": "Bus stop study",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Wood+bus+stop+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Wood+bus+stop+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/burger-van",
+    "slug": "burger-van",
     "title": "Burger Van",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/145_burger_van_500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/145_burger_van_400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/serpent-gate-1",
+    "slug": "serpent-gate-1",
     "title": "Serpent Gate",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1086+Serpent+Gate+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1086+Serpent+Gate+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/best-original-kebabs-study",
+    "slug": "best-original-kebabs-study",
     "title": "Best Original Kebabs study",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/771+Best+Original+Kebabs+400px.png",
     "index_img_href": "https://assets.lancefennell.co.uk/img/771+Best+Original+Kebabs+400px+sq.png"
   },
   {
     "category": "paintings",
-    "slug": "/blog/no-5",
+    "slug": "no-5",
     "title": "No 5",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/136+no+5+FS+ex+frame+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/136+no+5+FS+ex+frame+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/winterton-dunes",
+    "slug": "winterton-dunes",
     "title": "Winterton dunes",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/146_winterton_dunes+500.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/146_winterton_dunes+400+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/burger-van-1",
+    "slug": "burger-van-1",
     "title": "Burger Van",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1116+Burger+Van+IV+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1116+Burger+Van+IV+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/burger-van",
+    "slug": "burger-van",
     "title": "Burger Van",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1118+Burger+Van+V+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1118+Burger+Van+V+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/st-marys-shenley",
+    "slug": "st-marys-shenley",
     "title": "St Mary's, Shenley",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2021+1130+St+Mary%27s%2C+Shenley+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1130+St+Mary%27s%2C+Shenley+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/carousel-amp-box",
+    "slug": "carousel-amp-box",
     "title": "Carousel &amp; Box",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1131+Carousel+%26+Box+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1131+Carousel+%26+Box+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/no-5-v-1",
+    "slug": "no-5-v-1",
     "title": "No 5 v 1",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/240+No+5+v1+detail+enhanced+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/240+No+5+v1+detail+enhanced+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/angel-amp-box",
+    "slug": "angel-amp-box",
     "title": "Angel &amp; Box",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Angel+and+Box+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Angel+and+Box+400px+Sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/kd8gn95h6l87d2w80h6dqky90q98zb",
+    "slug": "kd8gn95h6l87d2w80h6dqky90q98zb",
     "title": "Shenley Boxes",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/863+Shenley+Boxes+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/863+Shenley+Boxes+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/stowe-drive-nothing",
+    "slug": "stowe-drive-nothing",
     "title": "Stowe Drive (nothing)",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/197+nothing+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/197+nothing+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/box-amp-bowl",
+    "slug": "box-amp-bowl",
     "title": "Box &amp; Bowl",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/898+Box+%26+Bowl+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/898+Box+%26+Bowl+500px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/coast-road",
+    "slug": "coast-road",
     "title": "Coast Road",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/751+Coast+Road+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/751+Coast+Road+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/tower",
+    "slug": "tower",
     "title": "Tower",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/238+Tower+detail+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/238+Tower+detail+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/stowe-drive",
+    "slug": "stowe-drive",
     "title": "Stowe Drive",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/092+Stowe+Drive+500+px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/092+Stowe+Drive+400+px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bloomsbury-bags-study",
+    "slug": "bloomsbury-bags-study",
     "title": "Bloomsbury Bags (study)",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1090+Bloomsbury+Bags+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1090+Bloomsbury+Bags+Sq+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/ampthill-box",
+    "slug": "ampthill-box",
     "title": "Ampthill Box",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1091+Ampthill+Box+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1091+Ampthill+Box+Sq+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/shenley-oak-exploding",
+    "slug": "shenley-oak-exploding",
     "title": "Shenley Oak, Exploding",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Oak+Exploding+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Shenley+Oak+Exploding+400px+square.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/two-cars-coombes",
+    "slug": "two-cars-coombes",
     "title": "Two Cars (Coombes)",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/528+Two+cars+%28Coombes%29+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/528+Two+cars+%28Coombes%29+4500px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/coastguard",
+    "slug": "coastguard",
     "title": "Coastguard",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/001+Coastguard+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/001+Coastguard+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/serpent-gate",
+    "slug": "serpent-gate",
     "title": "Serpent Gate",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Serpent+Gate+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Serpent+Gate+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/shenley-oak-xi",
+    "slug": "shenley-oak-xi",
     "title": "Shenley Oak XI",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2021+1055+Shenley+Oak+IX+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2021+1055+Shenley+Oak+IX+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/shenley-oak-x",
+    "slug": "shenley-oak-x",
     "title": "Shenley Oak X",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1049+Shenley+Oak+and+Two+Stars+500px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1049+Shenley+Oak+and+Two+Stars+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/shenley-oak-ix",
+    "slug": "shenley-oak-ix",
     "title": "Shenley Oak IX",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2021+1048+Shenley+Oak+with+Stars+and+Bags+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2021+1048+Shenley+Oak+with+Stars+and+Bags+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/qfo9wjya3rja431jfeqrmqvocqac0d",
+    "slug": "qfo9wjya3rja431jfeqrmqvocqac0d",
     "title": "Winslow High Street",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/532+winslow+high+street+500px+on+grey.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/532+winslow+high+street+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/two-bridges",
+    "slug": "two-bridges",
     "title": "Two Bridges",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/773+Two+Bridges+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/773+Two+Bridges+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/foqu2xbivk7bmnxxdgsefmyketprzh",
+    "slug": "foqu2xbivk7bmnxxdgsefmyketprzh",
     "title": "Two Boxes",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Two+Boxes+%28unframed%29+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Two+Boxes+%28unframed%29+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/checkpoint",
+    "slug": "checkpoint",
     "title": "Checkpoint",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2020+1015+Checkpoint+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2020+1015+Checkpoint+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/bridge-with-faces",
+    "slug": "bridge-with-faces",
     "title": "Bridge with Faces",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/1030+Bridge+with+Faces+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/1030+Bridge+with+Faces+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/w40ugc69leqzm3i5qw38se7k4wn5i0",
+    "slug": "w40ugc69leqzm3i5qw38se7k4wn5i0",
     "title": "The Carousel",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/967+Merry-Go-Round+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/967+Merry-Go-Round+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/m413tl05mzg0az4pvfqg59nzqawsyl",
+    "slug": "m413tl05mzg0az4pvfqg59nzqawsyl",
     "title": "Gathering, M1",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2020+1014+Gathering%2C+M1+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2020+1014+Gathering%2C+M1+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/ksf1gq7pwaugtgdukm73x2z4ey4feq",
+    "slug": "ksf1gq7pwaugtgdukm73x2z4ey4feq",
     "title": "Refuge",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/895+Refuge+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/895+Refuge+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/oocfeglgxwclco4857o0lpkec9pc2l",
+    "slug": "oocfeglgxwclco4857o0lpkec9pc2l",
     "title": "Tower",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/image-asset.jpeg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/966+Tower+400px+%28Grey+for+website%29+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/etfffvkdlxeyoy2u15nh8j4l5q5zrt",
+    "slug": "etfffvkdlxeyoy2u15nh8j4l5q5zrt",
     "title": "Two Boxes in a Field",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/2020+939+Two+Boxes+in+a+field+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/2020+939+Two+Boxes+in+a+field+400px.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/ar9j9cshilhi0vsqdp8j5jbjuhefpq",
+    "slug": "ar9j9cshilhi0vsqdp8j5jbjuhefpq",
     "title": "Two Boxes in a field II",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/940+Two+Boxes+in+a+field+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/940+Two+Boxes+in+a+field+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/5tesmxsa3j3xagmk87mbtn05ktghbd",
+    "slug": "5tesmxsa3j3xagmk87mbtn05ktghbd",
     "title": "Study for Gathering",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Gathering%2C+M1+study+II+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Gathering%2C+M1+study+II+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/g7j75j20ki8rbqkiobsxf731g6gq2i",
+    "slug": "g7j75j20ki8rbqkiobsxf731g6gq2i",
     "title": "Gathering, M1",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/893+Highway+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/893+Highway+400+px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/trakw1l97ifspz2b26ln5v4ss94rtd",
+    "slug": "trakw1l97ifspz2b26ln5v4ss94rtd",
     "title": "Refuge",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Refuge+study+II+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Refuge+study+II+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/zjmn6atms6bfg3zh76yxzcpj62zaeh",
+    "slug": "zjmn6atms6bfg3zh76yxzcpj62zaeh",
     "title": "Field Defences",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Field+Defences+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Field+Defences+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/jdu8mu9n2czilia2eiorqrlj85ye39",
+    "slug": "jdu8mu9n2czilia2eiorqrlj85ye39",
     "title": "Study for Refuge",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/Refuge+study+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/Refuge+study+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/ucqat4miymrrs278r5fh8o7nlvs74k",
+    "slug": "ucqat4miymrrs278r5fh8o7nlvs74k",
     "title": "Fire study",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/847+Fire+study+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/847+Fire+study+400px+sq.jpg"
   },
   {
     "category": "paintings",
-    "slug": "/blog/a6387uknz32sqijlbepdco5iep4hom",
+    "slug": "a6387uknz32sqijlbepdco5iep4hom",
     "title": "Box and Merry-Go-Round",
     "detail_img_href": "https://assets.lancefennell.co.uk/img/907+Box+with+ride+-+400px.jpg",
     "index_img_href": "https://assets.lancefennell.co.uk/img/907+Box+with+ride+-+500px+sq.jpg"
