@@ -2,6 +2,12 @@
 
 {% block title %}Remembrance - {{ config.SITE_TITLE }}{% endblock %}
 
+{% block head_meta %}
+    <meta property="og:title" content="Remembrance" />
+    <meta property="og:image" content="{{ config.SITE_IMG_URL }}" />
+    <meta property="og:image:type" content="{{ config.SITE_IMG_MEDIA_TYPE }}" />
+{% endblock %}
+
 {% block content %}
 <article class="mt-12 text-center space-y-16">
     <section class="space-y-4">

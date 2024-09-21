@@ -2,6 +2,12 @@
 
 {% block title %}{{ item.title | title }} - {{ config.SITE_TITLE }}{% endblock %}
 
+{% block head_meta %}
+<meta property="og:title" content="{{ item.title }}" />
+<meta property="og:image" content="{{ item.detail_img_href }}" />
+<meta property="og:image:type" content="{{ item.media_type }}" />
+{% endblock %}
+
 {% block content %}
 <article class="mt-12">
     <h1 class="w-full text-center text-3xl">{{ item.title }}</h1>

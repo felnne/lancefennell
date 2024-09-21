@@ -5,6 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <meta property="og:site_name" content="{{ config.SITE_TITLE }}" />
+        <meta property="og:type" content="website" />
+        {% block head_meta %}
+            <meta property="og:title" content="{{ config.SITE_TITLE }}" />
+            <meta property="og:image" content="{{ config.SITE_IMG_URL }}" />
+            <meta property="og:image:type" content="{{ config.SITE_IMG_MEDIA_TYPE }}" />
+        {% endblock %}
         <title>{% block title %}{{ config.SITE_TITLE }}{% endblock %}</title>
     </head>
     <body class="bg-[#f1f1ef] dark:bg-black dark:text-white">

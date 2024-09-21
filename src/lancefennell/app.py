@@ -16,6 +16,10 @@ def _get_surrounding_items(slug: str):
     for i, item in enumerate(data):
         if item['slug'] == slug:
             current_item = item
+            current_item['media_type'] = 'image/jpeg'
+            if current_item['detail_img_href'].endswith('.png'):
+                current_item['media_type'] = 'image/png'
+
             if i > 0:
                 previous_item = data[i - 1]
             if i < len(data) - 1:
@@ -28,6 +32,8 @@ def _get_surrounding_items(slug: str):
 def create_app():
     app = Flask(__name__)
     app.config['SITE_TITLE'] = 'Lance Fennell'
+    app.config['SITE_IMG_URL'] = 'https://assets.lancefennell.co.uk/img/847+Fire+study+400px.jpg'
+    app.config['SITE_IMG_MEDIA_TYPE'] = 'image/jpeg'
     app.config['FREEZER_DESTINATION'] = Path.cwd() / 'build'
 
     @app.route('/favicon.ico')
