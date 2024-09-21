@@ -9,7 +9,7 @@
         <img src="{{ item.detail_img_href }}" alt="{{ item.title }}" />
     </figure>
 </article>
-<div class="text-center mt-12 space-y-4 lg:mt-24 lg:space-y-0 lg:flex lg:justify-center">
+<div class="text-center mt-12 space-y-4 lg:mt-32 lg:space-y-0 lg:flex lg:justify-center">
     {% if previous %}<a class="block w-full underline lg:text-left lg:no-underline lg:hover:underline" href="{{ url_for('detail', slug=previous.slug) }}">&lt; {{ previous.title }}</a>{% endif %}
     {% if next %}<a class="block w-full underline lg:text-right lg:no-underline lg:hover:underline" href="{{ url_for('detail', slug=next.slug) }}">{{ next.title }} &gt;</a>{% endif %}
 </div>
