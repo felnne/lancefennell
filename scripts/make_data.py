@@ -1,8 +1,9 @@
 import json
 from pathlib import Path
+
 from lxml import etree
 
-exports = ['studio', 'paintings']
+exports = ['studio', 'paintings', 'tribute']
 output = Path('src/lancefennell/data.py')
 
 namespaces = {
@@ -10,7 +11,7 @@ namespaces = {
     'wp': 'http://wordpress.org/export/1.2/'
 }
 
-def process_file(path: Path, link_prefix: str) -> list[dict]:
+def process_wp_file(path: Path, link_prefix: str) -> list[dict]:
     print('Processing', path.resolve())
     results = []
     tree = etree.parse(path)
@@ -24,8 +25,8 @@ def process_file(path: Path, link_prefix: str) -> list[dict]:
 
         # Odd-indexed item (post containing title, slug and image)
         odd_item = items[i]
-        title = odd_item.find('title').text
-        link = str(odd_item.find('link').text).replace(f"/{link_prefix}/", '')
+        title = str(odd_item.find('title').text).replace('\u2019', "'")
+        link = str(odd_item.find('link').text).replace(f"/{link_prefix}/", '').replace('/blog/', '')
 
         # img element is buried in cdata
         content_encoded = odd_item.find('content:encoded', namespaces).text
@@ -46,12 +47,36 @@ def process_file(path: Path, link_prefix: str) -> list[dict]:
         })
     return results
 
+def process_tribute_file(path: Path, category: str) -> list[dict]:
+    print('Processing', path.resolve())
+    results = []
+
+    with path.open() as f:
+        lines = f.readlines()
+    items = lines
+    items_count = len(items)
+    print(f'{items_count} items')
+    for i, item in enumerate(items):
+        print(f'Processing item {i} / {items_count} from {path.resolve()}')
+        name = item.split('/')[-1].split('.')[0]
+        results.append({
+            'category': category,
+            'slug': name,
+            'title': name,
+            'detail_img_href': item,
+            'index_img_href': item
+        })
+    return results
+
 def main():
     items = []
     for export in exports:
-        items.extend(process_file(path=Path(f"data/{export}.xml"), link_prefix=export))
+        if export == 'tribute':
+            items.extend(process_tribute_file(path=Path(f"exports/{export}.txt"), category=export))
+        else:
+            items.extend(process_wp_file(path=Path(f"exports/{export}.xml"), link_prefix=export))
     with output.open('w') as f:
-        json.dump(items, f, indent=2)
+        f.write('data = ' + json.dumps(items, indent=2))
 
 if __name__ == '__main__':
     main()
