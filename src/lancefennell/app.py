@@ -4,6 +4,10 @@ from flask import Flask, redirect, url_for, render_template
 
 from lancefennell.data import data
 
+def _get_category_items(category: str) -> list[dict]:
+    return [item for item in data if item['category'] == category]
+
+
 def _get_surrounding_items(slug: str):
     previous_item = None
     current_item = None
@@ -19,10 +23,6 @@ def _get_surrounding_items(slug: str):
             break
 
     return previous_item, current_item, next_item
-
-def _category_items(category: str):
-    items = [item for item in data if item['category'] == category]
-    return render_template("items.j2", items=items, category=category)
 
 
 def create_app():
@@ -40,7 +40,7 @@ def create_app():
 
     @app.route('/<category>/')
     def items(category: str) -> str:
-        return _category_items(category=category)
+        return render_template("items.j2", items=_get_category_items(category), category=category)
 
     @app.route('/items/<slug>/')
     def detail(slug: str):
@@ -53,6 +53,6 @@ def create_app():
 
     @app.route('/visual-tribute/')
     def visual_tribute():
-        return render_template("tribute.j2")
+        return render_template("tribute.j2", items=_get_category_items('tribute'))
 
     return app
