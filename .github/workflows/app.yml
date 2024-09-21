@@ -54,6 +54,8 @@ jobs:
       steps:
         - name: Download build artefacts
           uses: actions/download-artifact@v4.1.8
+        - name: list directories
+          run: ls -l && ls -l build/
         - name: Deploy site
           uses: cloudflare/wrangler-action@v3
           with:
