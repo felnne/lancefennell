@@ -59,4 +59,4 @@ jobs:
           with:
             apiToken: ${{ secrets.CF_API_TOKEN }}
             accountId: ${{ secrets.CF_ACCOUNT_ID }}
-            command: pages deploy build/ --project-name=$CF_PROJ_NAME
+            command: pages deploy build/ --project-name=${{ env.CF_PROJ_NAME }}
