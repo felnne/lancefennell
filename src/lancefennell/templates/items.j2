@@ -3,12 +3,13 @@
 {% block title %}{{ category | title }} - {{ config.SITE_TITLE }}{% endblock %}
 
 {% block content %}
-    <div class="grid grid-cols-4 gap-y-32 gap-x-16">
+    <div class="grid gap-y-16 lg:grid-cols-4 lg:gap-y-32 lg:gap-x-16">
         {% for item in items %}
             <figure>
-                <a class="hover:underline" href="{{ url_for('detail', slug=item.slug) }}">
-                    <img src="{{ item.index_img_href }}" alt="{{ item.title }}" />
-                    <div class="mt-10 text-center">{{ item.title }}</div>
+                <a class="underline lg:no-underline lg:hover:underline" href="{{ url_for('detail', slug=item.slug) }}">
+                    <img class="lg:hidden" src="{{ item.detail_img_href }}" alt="{{ item.title }}" />
+                    <img class="hidden lg:block" src="{{ item.index_img_href }}" alt="{{ item.title }}" />
+                    <div class="text-center mt-4 lg:mt-10">{{ item.title }}</div>
                 </a>
             </figure>
         {% endfor %}
