@@ -30,5 +30,10 @@ Personal website of Lance Fennell recreated as a static site.
 
 ## Developing
 
-- `poetry run flask run --app lancefennell.app:create_app --port 9000 --debug`
-- `poetry run tailwindcss -i src/lancefennell/styles/main.css -o src/lancefennell/static/css/main.css --minify --watch`
+- run: `poetry run flask run --app lancefennell.app:create_app --port 9000 --debug`
+- run: `poetry run tailwindcss -i src/lancefennell/styles/main.css -o src/lancefennell/static/css/main.css --minify --watch`
+
+## Build site
+
+- run: `poetry run python scripts/freeze_site.py`
+- test site: `poetry run python -m http.server 9000 --directory build`

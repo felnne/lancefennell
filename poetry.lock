@@ -59,6 +59,25 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "frozen-flask"
+version = "1.0.2"
+description = "Freezes a Flask application into a set of static files."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "frozen_flask-1.0.2-py3-none-any.whl", hash = "sha256:b81b69e84babb1da37ba592c7cd48f0822a62a4ef654f29378a0b8934b2076eb"},
+    {file = "frozen_flask-1.0.2.tar.gz", hash = "sha256:53a7895b188b7d59eb8d6fcf3fce18e097d8b4a26b6bb665e176add1a1e03aaf"},
+]
+
+[package.dependencies]
+flask = ">=2.0.0"
+
+[package.extras]
+check = ["flake8", "isort"]
+doc = ["pallets-sphinx-themes", "sphinx"]
+test = ["pytest"]
+
+[[package]]
 name = "itsdangerous"
 version = "2.2.0"
 description = "Safely pass data to untrusted environments and back."
@@ -367,4 +386,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "65357785504b78c3d89374cb416fa6f67a0e9f784c3362d6df6a7ae986d4654a"
+content-hash = "ff9cea1227986179c40a084ff58b7dedf681da77985fff23f8d33cd3ab56ee04"
