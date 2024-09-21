@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
         <title>{% block title %}{{ config.SITE_TITLE }}{% endblock %}</title>
     </head>
-    <body class="bg-[#f1f1ef]">
+    <body class="bg-[#f1f1ef] dark:bg-black dark:text-white">
         <header class="lg:hidden container mt-6 mb-12 mx-auto">
             <div class="text-2xl text-center">{{ config.SITE_TITLE }}</div>
             <nav class="flex justify-center items-center space-x-2">
@@ -31,6 +31,6 @@
             {% block content %}{% endblock %}
         </main>
 
-        <footer class="bg-black mt-12 py-12 lg:mt-64 lg:py-32 text-center text-gray-300">In loving memory of Lance Fennell, 1963 - 2023.</footer>
+        <footer class="text-center text-gray-200 bg-black dark:bg-gray-800 dark:text-gray-400 mt-12 py-12 lg:mt-64 lg:py-32">In loving memory of Lance Fennell, 1963 - 2023.</footer>
     </body>
 </html>
